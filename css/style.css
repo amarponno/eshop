@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhai|Fira+Sans+Condensed|Roboto');
+
+*,body,html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Baloo Bhai', cursive;
+}
+
+a{
+    text-decoration: none;
+}
+.logo{
+    height: 3.5rem;
+    border-radius: 50%;
+    margin: 0;
+    padding: 0;
+}
+
+.bg-color{
+    background: orange;
+}
+.nav-link,.navbar-toggler{
+    color:white;
+    font-weight: bold;
+}
+.nav-link:hover{
+    color:red;
+}
+
+/*/ SWIPER /*/
+
+.swiper-container {
+    width: 100%;
+    height: 350px;
+    padding-left: 50px;
+  }
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 350px;
+  }
+
+/*/ EID SECTION /*/
+
+.eid {
+    width:100%;
+    height : 65px;
+}
+.eid .eid-png {
+	height: 60px;
+	border-radius: 50%;
+	position: relative;
+	bottom: 4px;
+}
+.eid .eid-special {
+	padding-left: 20px;
+    padding-top: 5px;
+    color: white;
+    font-size: 2.4rem;
+}
+
+/*/ PRODUCT SECTION /*/
+
+
+.eid-product {
+    overflow: hidden;
+}
+.eid-product .single-product {
+    width: 8rem;
+    margin: 10%;
+    height: 9rem;
+}
+.eid-product .seal {
+	position: absolute;
+	top: 6%;
+	transform: rotate(330deg);
+	font-size: .6rem;
+	left: 12%;
+	background: orange;
+	padding-left: 2%;
+	padding-right: 2%;
+	color: white;
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+.product-info{
+    margin-left: 11%;
+    margin-bottom: 20%;
+}
+.hot-png {
+    height: 55px;
+    padding: 5px;
+}
+.hot-deals {
+    color: white;
+    font-size: 2.4rem;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+.strike {
+    text-decoration: line-through;
+    color: orange;
+}
+.price {
+    display: block;
+    color: green;
+    font-weight: bold;
+}
+
+
+
+
+/*/ FOOTER /*/
+
+.footer-bg{
+    background: orange;
+    width: 100%;
+    height: 70px;
+    color:white;
+}
+.design-by {
+    padding: 3.2%;
+}
+.design-by a:hover{
+    text-decoration: none;
+}
+.social {
+    text-align: end;
+    padding: 3%;
+}
+.fab {
+    color: white;
+    padding:0 1.3%;
+    font-size: 1.3rem;
+    transition: all 1s;
+}
+.fab:hover{
+    background: white;
+    padding: 0.7rem;
+    border-radius: 50%;
+    color:orange;
+    transform: rotate(360deg);
+}
+
+
+
+
+
+
+
+
+
+
+/* RESPONSIVE */
+
+
+@media (max-width: 768px) {
+    .swiper-container {
+    width: 100%;
+  }
+  .swiper-slide {
+    width: 100%;
+    height: 350px;
+  }
+  .swiper-slide .slider-text {
+	
+	font-size: 1rem;
+	
+}
+.eid .eid-special {
+    font-size: 1.4rem;
+}
+.eid .eid-png {
+    bottom: 0;
+}
+.hot-deals {
+    font-size: 1.4rem;
+    padding: 0;
+}
+.eid-product .seal{
+    top:4%;
+}
+.footer-bg {
+    font-size: 0.7rem;
+    padding: 5px;
+    height: 50px;
+}
+
+.social {
+    padding: 2%;
+}
+.fab {
+    padding:0 2%;
+    font-size: 0.8rem;
+}
+.fab:hover{
+    padding: 0.3rem;
+}
+  }
